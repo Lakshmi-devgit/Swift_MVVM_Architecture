@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct HomeViewModel {
+    init() {
+        
+    }
+    
+    func addValues(first : Int , second : Int) -> String {
+        print(first,second)
+        return String(first + second)
+    }
+    
+}

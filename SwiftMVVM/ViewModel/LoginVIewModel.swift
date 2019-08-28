@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+struct LoginViewModel {
+    
+    init() {
+        
+    }
+    
+    func checkLogin(userName : String? , pwd : String? ) -> Bool {
+        
+        if userName != nil && pwd != nil && userName != "" && pwd != ""{
+            //            print(userName,pwd)
+            return true
+        }
+        
+        return false
+    }
+    
+}

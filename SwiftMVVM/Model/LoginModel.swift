@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct LoginDetails {
+    let userName : String
+    let pwd : String
+}
